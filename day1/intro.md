@@ -31,7 +31,7 @@
 - `git add .` - Add all changes
 - `git add <file>` - Add specific file
 - `git commit -m "message"` - Commit changes
-- `git commit -am "message"` - Add and commit (tracked files)
+- `git commit -am "message"` - Add and commit 
 - `git push` - Push changes to remote
 - `git pull` - Pull latest changes
 
@@ -49,8 +49,8 @@
 - `git restore <file>` - Discard changes in a file
 - `git restore .` - Discard all changes
 - `git reset <file>` - Unstage a file
-- `git reset --hard` - Reset everything (⚠ be careful)
-- `git revert <commit>` - Undo a commit (safe)
+- `git reset --hard` - Reset everything 
+- `git revert <commit>` - Undo a commit 
 - `git clean -fd` - Remove untracked files & folders
 
 ### Stash Shortcuts
@@ -72,8 +72,8 @@
 
 ### Useful Shortcuts
 
-- `git log --oneline` - View commit history (short)
-- `git log --graph` - View commit history (graph)
+- `git log --oneline` - View commit history 
+- `git log --graph` - View commit history 
 - `git diff` - Show changes
 - `git show <commit>` - Show commit details
 - `git blame <file>` - See who changed a line
@@ -95,7 +95,7 @@
 
 ### Navigation & Directory Shortcuts
 
-- `cd <path>` - Change directory (e.g., `cd Documents`)
+- `cd <path>` - Change directory 
 - `cd ..` - Go up one directory level
 - `cd \` - Go to the root of the current drive
 - `dir` - List files and folders in current directory
@@ -105,9 +105,9 @@
 
 ### File & Folder Management
 
-- `mkdir <name>` - Create a new directory (or `md`)
-- `rmdir <name>` - Remove an empty directory (or `rd`)
-- `rmdir /s <name>` - Remove directory and all contents (⚠ careful)
+- `mkdir <name>` - Create a new directory
+- `rmdir <name>` - Remove an empty directory 
+- `rmdir /s <name>` - Remove directory and all contents 
 - `copy <source> <dest>` - Copy files
 - `xcopy <source> <dest> /e` - Copy folders and subfolders
 - `move <source> <dest>` - Move or rename files/folders
@@ -118,7 +118,7 @@
 
 - `ipconfig` - View network IP configuration
 - `ipconfig /flushdns` - Clear DNS resolver cache
-- `ping <host>` - Test network connection (e.g., `ping google.com`)
+- `ping <host>` - Test network connection 
 - `tracert <host>` - Trace route to a network host
 - `netstat -an` - View active network connections
 - `systeminfo` - View detailed system configuration
@@ -127,7 +127,7 @@
 
 ### System Maintenance & Utilities
 
-- `sfc /scannow` - Scan and repair system files (Run as Admin)
+- `sfc /scannow` - Scan and repair system files 
 - `chkdsk` - Check disk for errors
 - `diskpart` - Disk partitioning utility
 - `shutdown /s /t 0` - Shut down immediately
@@ -136,8 +136,8 @@
 
 ### Advanced & Useful Shortcuts
 
-- `|` (Pipe) - Send output of one command to another (e.g., `dir | find "txt"`)
-- `>` - Redirect output to a file (e.g., `ipconfig > network.txt`)
+- `|` (Pipe) - Send output of one command to another 
+- `>` - Redirect output to a file 
 - `&&` - Run second command if first succeeds
 - `help <command>` - Get help for a specific command
 - `color` - Change text and background color of the prompt
