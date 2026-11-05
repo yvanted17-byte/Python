@@ -7,7 +7,7 @@ Exercise oriented
 - [x] Bools
 - [ ] conditional
 - [ ] comparison
-- [ ] Strings
+- [x] Strings
 - [ ] String methods
 - [ ] lists
 - [ ] lists Method
