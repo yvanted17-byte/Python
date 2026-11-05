@@ -92,8 +92,21 @@ inversed_form= first_name[::-1]
 '''print(inversed_form)
 print (inversed_form[0])
 print(inversed_form[1:5]) '''#it doest show the 5th element. it takes value from the 2nd to the 4th
-team: Portland
+
 
 #challenge = 'thirty days of python'
 print(challenge.capitalize()) # 'Thirty days of python'
-'''.count('element') to count the number of times a character appears in a tstring '''
+'''.count('element') to count the number of times a character appears in a string
+.endswith('element or character') to check if the elemnt ends with a given character or characters
+.expandtabs(): Replaces tab character with spaces, default tab size is 8. It takes tab size argument
+.find(): Returns the index of the first occurrence of a substring, if not found returns -1'''
+
+#day 5: List
+#Positiv indexing
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[0] # we are accessing the first item using its index
+print(first_fruit)      # banana
+second_fruit = fruits[1]
+print(second_fruit)     # orange
+last_fruit = fruits[3]
+print(last_fruit) # lemon
