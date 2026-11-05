@@ -2,9 +2,9 @@
 Learn Python out of nothing.
 Exercise oriented
 ## Learning Plan
-- [ ] Basics
-- [ ] numbers
-- [ ] Bools
+- [x] Basics
+- [x] numbers
+- [x] Bools
 - [ ] conditional
 - [ ] comparison
 - [ ] Strings
