@@ -114,9 +114,45 @@ print(second_fruit)     # orange
 last_fruit = fruits[3]
 print(last_fruit) # lemon
 '''
+'''
 first, second, third, *rest, last = [1, 2, 3, 4, 5, 6]
 print(first)
 print(rest) 
+'''
+#Day 6 (100)
+import random
 
-#Day 6 
+x = random.randint(0, 100)
+i = int(7)
+def ask_val():
+    while True:
+        try:
+            value_p = int(input("Enter a number between 0 and 100: "))
+            if 0 <= value_p and value_p <= 100:
+                return value_p
+            else:
+                print(" Number must be between 0 and 100.")
+        except ValueError:
+            print(" please enter a valid number")
+
+value_p = ask_val()
+
+while value_p != x and i > 0:
+
+    if value_p < x:
+        print("Too low")
+    else:
+        print("Too high")
+
+    i -= 1
+    print("Attempts left:", i)
+
+    value_p = ask_val()
+
+if value_p == x:
+    print("Congratulations! You guessed the number.")
+else:
+    print("You lost!")
+    print("The number was:", x)
+
 
