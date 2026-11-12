@@ -9,8 +9,8 @@ Exercise oriented
 - [x] comparison
 - [x] Strings
 - [x] String methods
-- [ ] lists
-- [ ] lists Method
+- [x] lists
+- [x] lists Method
 - [x] loop
 - [ ] turples
 - [ ] dicts
