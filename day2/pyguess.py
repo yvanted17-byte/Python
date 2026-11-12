@@ -1,6 +1,16 @@
 import random
-x = random.randint(0, 100)
-
+def level():
+    diff=str(input("Difficulty: [EX:Expert][ME:Medium][ES:Easy]"))
+    return diff
+def difficulty():
+    diff=level()
+    if diff == "ex":
+        i=int(4)
+    elif diff == "es":
+        i=int(9)
+    else:
+        i=int(6)
+    return i
 def ask_val():
     while True:
         try:
@@ -12,9 +22,10 @@ def ask_val():
         except ValueError:
             print(" please enter a valid number")
 def game():
+    i=difficulty()
     value_p = ask_val()
     x = random.randint(0, 100)
-    i=int(6)
+    
     while value_p != x and i >= 1:
         if value_p < x:
             print("Too low")
