@@ -65,7 +65,7 @@ By the end of this project, the developer should be able to:
 4. An **invalid** input (not a number) or an **out-of-range** input (not in `[1, 100]`) is rejected and **does not consume an attempt**.
 5. Finding the number ends the game immediately with a victory message.
 6. After 7 unsuccessful attempts, the game is lost and the correct number is revealed.
-7. *(Bonus)* Replay mode, difficulty selection, and a history of guesses.
+7. *(Bonus)* Replay mode, difficulty selection
 
 ### Function reference
 
