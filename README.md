@@ -2,16 +2,16 @@
 Learn Python out of nothing.
 Exercise oriented
 ## Learning Plan
-- [x] Basics
+- [x] [Basics](/day1/intro.md) 
 - [x] numbers
 - [x] Bools
-- [ ] conditional
-- [ ] comparison
+- [x] conditional
+- [x] comparison
 - [x] Strings
-- [ ] String methods
+- [x] String methods
 - [ ] lists
 - [ ] lists Method
-- [ ] loop
+- [x] loop
 - [ ] turples
 - [ ] dicts
 - [ ] dicts Method
@@ -30,9 +30,9 @@ Exercise oriented
    # Deadlines
 | Period | Task | Remark |
 | ----------- | ----------- | ----------- |
-| Day 1-3 | Basics, Numbers, Bools |  |
-| Day 4-7 | Conditionals, Comparisons |  |
-| Day 8-12 | Strings, String methods |  |
+| Day 1-3 | Basics, Numbers, Bools | perfecttly assimmilated  |
+| Day 4-7 | Conditionals, Comparisons | perfectly assimmilated |
+| Day 8-12 | Strings, String methods | perfectly assimilated |
 | Day 13-23 | Lists, List Methods |  |
 | Day 24-30 | Loop and turples |  |
 | Day 31-35 | Dicts, Dicts Methods |  |
